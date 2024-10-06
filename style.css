@@ -213,6 +213,13 @@ ul{
     list-style-type: none;
 }
 
+.contenedor_visual_insignias{
+    margin: 2% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
 /* estilos para el la seccion habilidades*/
 
 .contenedor_seccion_habilidades{
@@ -344,6 +351,12 @@ footer {
     .contenedor_seccion_habilidades,
     .contenedor_seccion_proyectos{
         padding-top: 150px;
+    }
+
+    .contenedor_visual_insignias{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
