@@ -15,37 +15,190 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="about.html" class="visual_link_nav">Perfil detallado</a>
-        <a href="mailto:diego.espinal.de@gmail.com?subject=Contactame" class="visual_link_nav">Contactar via email</a>
-    </nav>
+      <!-- Menu -->
+      <nav class="contenedor_menu_navegacion">
+        <a href="#sobre_mi" class="estilo_enlace_navegacion">Inicio</a>
+        <a href="#contenedor_seccion_educacion" class="estilo_enlace_navegacion">Educación</a>
+        <a href="#skills" class="estilo_enlace_navegacion">Habilidades</a>
+        <a href="#proyectos" class="estilo_enlace_navegacion">Proyectos</a>
+        <a href="#contacto" class="estilo_enlace_navegacion">Contacto</a>
+      </nav>
     </header>
-    <main class="contenedor_principal">
-      <section class="contenedor_elementos_section">
-        <h1 class="titulo">Diseño Figma y desarrollo en HTML5 y CSS</h1>
-        <p>
-          ¡Hola! Mi nombre es Diego Espinal, actualmente soy consultor de soporte CRM, 
-          me he desempeñado como implementador de software ERP y me encuentro estudiando 
-          desarrollo Front-end. Este diseño fue estructurado en Figma y desarrollado en HTML y CSS.
-          <strong class="texto_resaltado">
-            Si deseas saber mas sobre mi, te invito a revisar mi perfil de
-            Linkedin o mi portafolio de Github mediante los botones de acceso
-            directo.
-          </strong>
-        </p>
-        <div class="contenedor_botones">
-          <h2>Acceso a mis redes</h2>
-          <a href="https://linkedin.com/in/diego-fernando-espinal-carmona-4a633221b"
-            class="visual_boton"
-            >Linkedin</a>
-          <a href="https://github.com/Guiitto" class="visual_boton"
-            >Github</a>
-        </div>
-      </section>
-      <img class="contenedor_imagen" src="./assets/IMG.jpg" alt="Imagen Pefil" />
-    </main>
-    <footer>
-      Desarrollado por Diego Espinal - 2024&#169
-    </footer>
+
+    <!-- Sección sobre mí -->
+    <section class="contenedor_seccion_sobre_mi" id="sobre_mi">
+      <h2>Sobre mí</h2>
+      <br />
+      <p>
+        ¡Hola! Mi nombre es Diego Fernando Espinal Carmona, soy una persona
+        alegre, respetuosa, sociable, ordenada y proactiva. Soy contador publico,
+        tengo 4 años de experiencia laboral en el area de tecnologia en cargos como implementador de software ERP,
+        atencion al cliente y consultor de soporte CRM - Dynamics 365. Adicional me encuentro cursando un programa intensivo de aprendizaje
+        con Oracle Next Education enfocado en desarrollo Front-end.
+        <strong class="texto_resaltado">
+          Si deseas saber mas sobre mi, te invito a revisar mi perfil de
+          Linkedin, Github o mediante contactarme mediante enlace "Contacto".
+        </strong>
+      </p>
+    </section>
+
+    <section class="contenedor_imagen_botones">
+      <img
+        class="contenedor_imagen"
+        src="./assets/IMG.jpg"
+        alt="Imagen Pefil"
+      />
+      <div class="contenedor_botones">
+        <h2>Acceso a mis redes</h2>
+        <a
+          href="https://linkedin.com/in/diego-fernando-espinal-carmona-4a633221b"
+          class="estilo_visual_boton"
+          >Linkedin</a
+        >
+        <a href="https://github.com/Guiitto" class="estilo_visual_boton"
+          >Github</a
+        >
+      </div>
+    </section>
+
+    <!-- Sección de Formación académica -->
+    <section
+      class="contenedor_seccion_educacion"
+      id="contenedor_seccion_educacion">
+      <br />
+      <h2>Formación académica</h2>
+      <br />
+      <p>
+        Esta sección contempla a detalle los diferentes estudios profesionales y cursos realizados a la fecha que me permiten estar calificado
+        y desempeñar mis labores efectivamente ya sea de forma individual o mediante trabajo en equipo. 
+      </p>
+      <br />
+      <table>
+        <tr>
+          <th>INSTITUCIÓN EDUCATIVA</th>
+          <th>ESTUDIO / CURSO</th>
+        </tr>
+        <tr>
+          <td>Universidad del Valle</td>
+          <td>Contador Publico</td>
+        </tr>
+        <tr>
+          <td>Microsoft</td>
+          <td>Curso - "Microsoft Azure AI Fundamentals"</td>
+        </tr>
+        <tr>
+          <td>Udemy</td>
+          <td>
+            <ul>
+              <li>
+                Curso - "Universidad CSS - Aprende CSS desde Cero hasta Experto"
+              </li>
+              <li>
+                Curso - "Universidad HTML - Aprende HTML desde Cero hasta
+                Experto"
+              </li>
+              <li>
+                Curso - Introducción a SQL con Oracle
+              </li>
+            </ul>
+          </td>
+        </tr>
+          <td>Oracle Next Education</td>
+          <td>
+            <ul>
+              <li>
+                Curso - "Lógica de programación: sumérgete en la programación con JavaScript"
+              </li>
+              <li>
+                Curso - "HTML y CSS trabajando con responsividad y publicación de proyectos"
+              </li>
+              <li>
+                Curso - "Git y GitHub: repositorio, commit y versiones"
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tr>
+      <td>Coursera - Google</td>
+      <td>
+        Aspectos básicos del diseño de la experiencia del usuario
+      </td>
+    </tr>
+  </table>
+  <img src="./assets/Insignia_decodificador de texto.png"/ alt="Insignia_decodificador">
+</section>
+
+<!-- Sección de Habilidades -->
+<section class="contenedor_seccion_habilidades" id="skills">
+      <h2>Habilidades</h2>
+      <p>Esta sección contempla mis competencias y habilidades blandas las cuales me permiten tener una comunicación efectiva, excelentes relaciones interpersonales y
+        una fuerte orientación al logro de objetivos.</p>
+      <ul>
+        <li>
+          <p>Implementacion software</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/laptop-code-solid.svg"/>
+        </li>
+        <li>
+          <p>Orden y programación</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/list-check-solid-xl.svg"/>
+        </li>
+        <li>
+          <p>Soporte y atencion al cliente</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/headset-solid-xl.svg"/>
+        </li>
+        <li>
+          <p>HTML</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/html5-brands-solid-xl.svg" alt="HMTL"/>
+        </li>
+        <li>
+          <p>CSS - Cascading Style Sheets</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/css3-alt-brands-solid-xl.svg"/>
+        </li>
+        <li>
+          <p>Logica de programacion POO</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/code-solid-xl.svg"/>
+        </li>
+        <li>
+          <p>Bases de datos Oracle/Postgres/SQL Server</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/database-solid-xl.svg"/>
+        </li>
+        <li>
+          <p>Uso sistema operativo Linux</p>
+          <img class="contenedor_iconos_habilidades" src="./assets/ubuntu-brands-solid-xl.svg"/>
+        </li>
+      </ul>
+</section>
+
+<!-- Sección de Proyectos -->
+<section class="contenedor_seccion_proyectos" id="proyectos">
+  <h2>Proyectos</h2>
+  <p>Esta sección contempla algunos de los proyectos o challenges a nivel de desarrollo que he realizado, puedes acceder
+    directamente y usarlos dando click a las imagenes.
+  </p></br>
+  <div class="contenedor_imagenes_acceso_proyectos">
+    <h2>Challenge Encriptador</h2>
+    <a href="https://guiitto.github.io/Challenge-encriptador/" class="estilo_enlace_navegacion"><img src="./assets/Encriptador.png"/></a>
+    <h2>Juego adivina el numero aleatorio</h2>
+    <a href="  https://guiitto.github.io/Number_secret/" class="estilo_enlace_navegacion"><img src="./assets/number_secret.png"/></a>
+  </div>
+</section>
+
+  <!-- Sección de Contacto -->
+  <section class="contenedor_formulario_contacto" id="contacto">
+  </br>
+    <h2>Formulario de contacto</h2>
+    <form class="estilo_visual_formulario">
+      <input class="estilo_visual_input" type="text" placeholder="Nombre" required/>
+      <input class="estilo_visual_input" type="email" placeholder="Correo Electrónico" required />
+      <textarea
+        class="estilo_visual_input--textarea"
+        placeholder="Mensaje"
+      ></textarea>
+      <button class="estilo_visual_boton_enviar" type="submit">Enviar</button>
+    </form>
+  </section>
+
+<!-- Footer -->
+    <footer>Desarrollado por Guiitto_Tech - Porfafolio web</footer>
   </body>
 </html>
